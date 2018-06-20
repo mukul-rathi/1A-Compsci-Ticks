@@ -1,0 +1,48 @@
+This is the code for the Databases Supervision Exercise:
+
+Q5.a)
+
+match (c)<-[r1:CERTIFIED_IN]-()<-[:PRODUCED]-(p)-[:PRODUCED]->()-[r2:CERTIFIED_IN]->(c)
+where c.country= 'UK' and r1.certificate = '18' and r2.certificate = 'U'
+return p.name as name;
+
+
+Q5.b)
+
+SELECT  name FROM people
+JOIN credits AS cr1 ON cr1.person_id = people.id AND cr1.type = 'producer'
+JOIN credits AS cr2 ON cr2.person_id = people.id AND cr1.type = 'producer'
+JOIN movies as m1 ON m1.id = cr1.movie_id 
+JOIN movies as m2 ON m2.id = cr2.movie_id  
+JOIN certificates as c1 ON c1.movie_id = m1.id AND c1.country = 'UK'
+JOIN certificates as c2 ON c2.movie_id = m2.id AND c2.country = 'UK'  
+where c1.certificate = '18' and c2.certificate = 'U'
+
+Q6
+
+match (p1:Person)-[:ACTS_IN]->(:Movie)<-[:ACTS_IN]-(p2:Person)
+where p1.name = 'Lawrence, Jennifer (III)'
+  and p2.name <> 'Lawrence, Jennifer (III)'
+	with p2.name as name, count(*) as total 
+	where total > 1
+	return name, total
+	order by name, total;
+	
+Q7
+	
+match (g:Genre)
+   with g.genre as genre1
+	 match path = allshortestpaths( (g:Genre)-[:HAS_GENRE*]-(g2:Genre) )
+	where genre1 < g2.genre  
+return distinct genre1, g2.genre as genre2, length(path)/2 as length
+order by length desc, genre1, genre2;
+
+
+Q8
+
+
+match (A)-[:HAS_GENRE]->()<-[:HAS_GENRE]-(B)-[:HAS_KEYWORD]->(kw:Keyword)<-[:HAS_KEYWORD]-(A)<-[:ACTS_IN]-(p:Person)-[:ACTS_IN]->(B)
+		where A.title = 'Skyfall (2012)'
+	with B.title as title, (count( distinct kw) + 10*count( distinct p)) as score			
+	return title, score
+    order by score desc;

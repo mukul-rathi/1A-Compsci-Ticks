@@ -1,4 +1,5 @@
 #version 140
+
 in vec3 frag_normal;	    // fragment normal in world space
 in vec2 frag_texcoord;		// fragment texture coordinates in texture space
 

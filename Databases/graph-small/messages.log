@@ -1,0 +1,1118 @@
+2017-10-25 07:58:28.207+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] No locking implementation specified, defaulting to 'community'
+2017-10-25 07:58:28.268+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-10-25 07:58:28.273+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-10-25 07:58:28.273+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-10-25 07:58:28.274+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.db.tuning.properties=/Users/mukulrathi/Downloads/graph-small/neo4j.properties
+2017-10-25 07:58:28.274+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.database.location=/Users/mukulrathi/Downloads/graph-small
+2017-10-25 07:58:28.274+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.querylog.filename=data/log/queries.log
+2017-10-25 07:58:28.274+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_store.location=/Users/mukulrathi/Downloads/graph-small/./dbms/auth
+2017-10-25 07:58:28.274+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_certificate_file=/Users/mukulrathi/Downloads/graph-small/./dbms/ssl/snakeoil.cert
+2017-10-25 07:58:28.274+0000 INFO  [o.n.k.i.DiagnosticsManager] remote_shell_enabled=true
+2017-10-25 07:58:28.274+0000 INFO  [o.n.k.i.DiagnosticsManager] edition=Community
+2017-10-25 07:58:28.274+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_key_file=/Users/mukulrathi/Downloads/graph-small/./dbms/ssl/snakeoil.key
+2017-10-25 07:58:28.274+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-10-25 07:58:28.274+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-10-25 07:58:28.274+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-10-25 07:58:28.274+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-10-25 07:58:28.274+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-10-25 07:58:28.274+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-10-25 07:58:28.275+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-10-25 07:58:28.275+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-10-25 07:58:28.275+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-10-25 07:58:28.275+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-10-25 07:58:28.275+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2017-10-25 07:58:28.275+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2017-10-25 07:58:28.276+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 16.00 GB
+2017-10-25 07:58:28.277+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 1.52 GB
+2017-10-25 07:58:28.277+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 7.05 GB
+2017-10-25 07:58:28.278+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 1.00 GB
+2017-10-25 07:58:28.278+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 957.50 MB
+2017-10-25 07:58:28.278+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-10-25 07:58:28.278+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 170.48 MB
+2017-10-25 07:58:28.278+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 245.50 MB
+2017-10-25 07:58:28.278+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 3.56 GB
+2017-10-25 07:58:28.280+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2017-10-25 07:58:28.280+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2017-10-25 07:58:28.281+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=993.50 kB, max=48.00 MB, threshold=0.00 B
+2017-10-25 07:58:28.281+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=64.50 MB, used=36.69 MB, max=1.31 GB, threshold=?
+2017-10-25 07:58:28.282+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=10.50 MB, used=10.48 MB, max=10.50 MB, threshold=?
+2017-10-25 07:58:28.282+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=170.50 MB, used=27.85 MB, max=2.67 GB, threshold=0.00 B
+2017-10-25 07:58:28.283+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Perm Gen (Non-heap memory): committed=21.00 MB, used=19.31 MB, max=82.00 MB, threshold=0.00 B
+2017-10-25 07:58:28.283+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-10-25 07:58:28.283+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Mac OS X; version: 10.12.6; arch: x86_64; cpus: 8
+2017-10-25 07:58:28.284+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 10.00 kB
+2017-10-25 07:58:28.284+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 34.00 B
+2017-10-25 07:58:28.294+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 8905@dhcp-10-249-73-185.eduroam.wireless.private.cam.ac.uk
+2017-10-25 07:58:28.294+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-10-25 07:58:28.294+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/London
+2017-10-25 07:58:28.294+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2017-10-25 07:58:28.294+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-10-25 07:58:28.294+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-10-25 07:58:28.294+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 24.80-b11
+2017-10-25 07:58:28.294+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-10-25 07:58:28.295+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dfile.encoding=UTF-8, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false, -Dexe4j.moduleName=/Applications/Neo4j Community Edition 2.3.11.app, -Di4j.ownBundlePath=/Applications/Neo4j Community Edition 2.3.11.app, -Di4j.jreBundle=/Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle]
+2017-10-25 07:58:28.295+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jfr.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunec.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/classes
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin/neo4j-desktop-2.3.11.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/zipfs.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/rt.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/resources.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/charsets.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/dnsns.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jce.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/sunrsasign.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/app/bin/neo4j-desktop-2.3.11.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jsse.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/localedata.jar
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2017-10-25 07:58:28.296+0000 INFO  [o.n.k.i.DiagnosticsManager] /Users/mukulrathi/Library/Java/Extensions
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] /Library/Java/Extensions
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] /Network/Library/Java/Extensions
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] /System/Library/Java/Extensions
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/java
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = /Applications/Neo4j Community Edition 2.3.11.app
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.jreBundle = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] gopherProxySet = false
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = GB
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = /Applications/
+2017-10-25 07:58:28.297+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.ext.udc.source = desktop
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.ownBundlePath = /Applications/Neo4j Community Edition 2.3.11.app
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] apple.awt.fileDialogForDirectories = false
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /Users/mukulrathi
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/London
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = mukulrathi
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = com.install4j.runtime.launcher.MacLauncher
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2017-10-25 07:58:28.298+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/
+2017-10-25 07:58:28.299+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
+2017-10-25 07:58:28.299+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.font.fontmanager = sun.font.CFontManager
+2017-10-25 07:58:28.299+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeBig
+2017-10-25 07:58:28.299+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-10-25 07:58:28.299+0000 INFO  [o.n.k.i.DiagnosticsManager] socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-10-25 07:58:28.299+0000 INFO  [o.n.k.i.DiagnosticsManager] ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-10-25 07:58:28.299+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2017-10-25 07:58:28.299+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2017-10-25 07:58:28.308+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en5:
+2017-10-25 07:58:28.308+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:aede:48ff:fe00:1122%12
+2017-10-25 07:58:28.308+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun1:
+2017-10-25 07:58:28.308+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a80b:7666:98b5:5865%14
+2017-10-25 07:58:28.308+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun0:
+2017-10-25 07:58:28.308+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fdb5:9ffe:526:65f1:85fa:8682:de01:306e
+2017-10-25 07:58:28.308+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:85fa:8682:de01:306e%13
+2017-10-25 07:58:28.308+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface awdl0:
+2017-10-25 07:58:28.308+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a07d:80ff:fec5:4205%11
+2017-10-25 07:58:28.308+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en0:
+2017-10-25 07:58:28.308+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:183f:f535:6a3b:42e5%4
+2017-10-25 07:58:28.309+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 10.249.73.185
+2017-10-25 07:58:28.309+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo0:
+2017-10-25 07:58:28.309+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:0:0:1%1
+2017-10-25 07:58:28.309+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2017-10-25 07:58:28.309+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-10-25 07:58:28.309+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-10-25 07:58:28.425+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2017-10-25 07:58:28.425+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2017-10-25 07:58:28.426+0000 INFO  [o.n.k.i.f.GraphDatabaseFacade] Shutdown started
+2017-10-25 07:58:53.971+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] No locking implementation specified, defaulting to 'community'
+2017-10-25 07:58:53.973+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-10-25 07:58:53.974+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-10-25 07:58:53.974+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-10-25 07:58:53.974+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.db.tuning.properties=/Users/mukulrathi/Downloads/graph-small/neo4j.properties
+2017-10-25 07:58:53.974+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.database.location=/Users/mukulrathi/Downloads/graph-small
+2017-10-25 07:58:53.974+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.querylog.filename=data/log/queries.log
+2017-10-25 07:58:53.974+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_store.location=/Users/mukulrathi/Downloads/graph-small/./dbms/auth
+2017-10-25 07:58:53.974+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_certificate_file=/Users/mukulrathi/Downloads/graph-small/./dbms/ssl/snakeoil.cert
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] remote_shell_enabled=true
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] edition=Community
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_key_file=/Users/mukulrathi/Downloads/graph-small/./dbms/ssl/snakeoil.key
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 16.00 GB
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 1.55 GB
+2017-10-25 07:58:53.975+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 7.11 GB
+2017-10-25 07:58:53.976+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 1.00 GB
+2017-10-25 07:58:53.976+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 957.50 MB
+2017-10-25 07:58:53.976+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-10-25 07:58:53.976+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 142.33 MB
+2017-10-25 07:58:53.976+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 245.50 MB
+2017-10-25 07:58:53.976+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 3.56 GB
+2017-10-25 07:58:53.976+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2017-10-25 07:58:53.976+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2017-10-25 07:58:53.977+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=1.08 MB, max=48.00 MB, threshold=0.00 B
+2017-10-25 07:58:53.977+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=64.50 MB, used=46.79 MB, max=1.31 GB, threshold=?
+2017-10-25 07:58:53.977+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=10.50 MB, used=10.47 MB, max=10.50 MB, threshold=?
+2017-10-25 07:58:53.978+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=170.50 MB, used=45.91 MB, max=2.67 GB, threshold=0.00 B
+2017-10-25 07:58:53.978+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Perm Gen (Non-heap memory): committed=22.50 MB, used=22.41 MB, max=82.00 MB, threshold=0.00 B
+2017-10-25 07:58:53.978+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-10-25 07:58:53.978+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Mac OS X; version: 10.12.6; arch: x86_64; cpus: 8
+2017-10-25 07:58:53.978+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 10.00 kB
+2017-10-25 07:58:53.978+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 37.00 B
+2017-10-25 07:58:53.978+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 8905@dhcp-10-249-73-185.eduroam.wireless.private.cam.ac.uk
+2017-10-25 07:58:53.978+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-10-25 07:58:53.979+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/London
+2017-10-25 07:58:53.979+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2017-10-25 07:58:53.979+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-10-25 07:58:53.979+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-10-25 07:58:53.979+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 24.80-b11
+2017-10-25 07:58:53.979+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-10-25 07:58:53.979+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dfile.encoding=UTF-8, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false, -Dexe4j.moduleName=/Applications/Neo4j Community Edition 2.3.11.app, -Di4j.ownBundlePath=/Applications/Neo4j Community Edition 2.3.11.app, -Di4j.jreBundle=/Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle]
+2017-10-25 07:58:53.979+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jfr.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunec.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/classes
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin/neo4j-desktop-2.3.11.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/zipfs.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/rt.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/resources.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/charsets.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/dnsns.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jce.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/sunrsasign.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/app/bin/neo4j-desktop-2.3.11.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jsse.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/localedata.jar
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager] /Users/mukulrathi/Library/Java/Extensions
+2017-10-25 07:58:53.980+0000 INFO  [o.n.k.i.DiagnosticsManager] /Library/Java/Extensions
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] /Network/Library/Java/Extensions
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] /System/Library/Java/Extensions
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/java
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = /Applications/Neo4j Community Edition 2.3.11.app
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.jreBundle = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] gopherProxySet = false
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = GB
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = /Applications/
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.ext.udc.source = desktop
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.ownBundlePath = /Applications/Neo4j Community Edition 2.3.11.app
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2017-10-25 07:58:53.981+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] apple.awt.fileDialogForDirectories = false
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /Users/mukulrathi
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/London
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = mukulrathi
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = com.install4j.runtime.launcher.MacLauncher
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.font.fontmanager = sun.font.CFontManager
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeBig
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-10-25 07:58:53.982+0000 INFO  [o.n.k.i.DiagnosticsManager] socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-10-25 07:58:53.983+0000 INFO  [o.n.k.i.DiagnosticsManager] ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-10-25 07:58:53.983+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2017-10-25 07:58:53.983+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2017-10-25 07:58:53.983+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en5:
+2017-10-25 07:58:53.983+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:aede:48ff:fe00:1122%12
+2017-10-25 07:58:53.983+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun1:
+2017-10-25 07:58:53.983+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a80b:7666:98b5:5865%14
+2017-10-25 07:58:53.983+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun0:
+2017-10-25 07:58:53.983+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fdb5:9ffe:526:65f1:85fa:8682:de01:306e
+2017-10-25 07:58:53.984+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:85fa:8682:de01:306e%13
+2017-10-25 07:58:53.984+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface awdl0:
+2017-10-25 07:58:53.984+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a07d:80ff:fec5:4205%11
+2017-10-25 07:58:53.984+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en0:
+2017-10-25 07:58:53.984+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:183f:f535:6a3b:42e5%4
+2017-10-25 07:58:53.984+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 10.249.73.185
+2017-10-25 07:58:53.984+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo0:
+2017-10-25 07:58:53.984+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:0:0:1%1
+2017-10-25 07:58:53.984+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2017-10-25 07:58:53.984+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-10-25 07:58:53.984+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-10-25 07:58:53.998+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2017-10-25 07:58:53.998+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2017-10-25 07:58:53.998+0000 INFO  [o.n.k.i.f.GraphDatabaseFacade] Shutdown started
+2017-10-25 08:00:33.940+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] No locking implementation specified, defaulting to 'community'
+2017-10-25 08:00:33.942+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-10-25 08:00:33.943+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-10-25 08:00:33.943+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-10-25 08:00:33.943+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.db.tuning.properties=/Users/mukulrathi/Downloads/graph-small/neo4j.properties
+2017-10-25 08:00:33.943+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.database.location=/Users/mukulrathi/Downloads/graph-small
+2017-10-25 08:00:33.943+0000 INFO  [o.n.k.i.DiagnosticsManager] allow_store_upgrade=true
+2017-10-25 08:00:33.943+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.querylog.filename=data/log/queries.log
+2017-10-25 08:00:33.943+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_store.location=/Users/mukulrathi/Downloads/graph-small/./dbms/auth
+2017-10-25 08:00:33.943+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_certificate_file=/Users/mukulrathi/Downloads/graph-small/./dbms/ssl/snakeoil.cert
+2017-10-25 08:00:33.943+0000 INFO  [o.n.k.i.DiagnosticsManager] remote_shell_enabled=true
+2017-10-25 08:00:33.943+0000 INFO  [o.n.k.i.DiagnosticsManager] edition=Community
+2017-10-25 08:00:33.943+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_key_file=/Users/mukulrathi/Downloads/graph-small/./dbms/ssl/snakeoil.key
+2017-10-25 08:00:33.943+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 16.00 GB
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 1.34 GB
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 7.13 GB
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 1.00 GB
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 957.50 MB
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-10-25 08:00:33.944+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 133.28 MB
+2017-10-25 08:00:33.945+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 245.50 MB
+2017-10-25 08:00:33.945+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 3.56 GB
+2017-10-25 08:00:33.945+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2017-10-25 08:00:33.945+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2017-10-25 08:00:33.945+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=1.16 MB, max=48.00 MB, threshold=0.00 B
+2017-10-25 08:00:33.945+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=64.50 MB, used=50.34 MB, max=1.31 GB, threshold=?
+2017-10-25 08:00:33.946+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=10.50 MB, used=9.75 MB, max=10.50 MB, threshold=?
+2017-10-25 08:00:33.946+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=170.50 MB, used=52.13 MB, max=2.67 GB, threshold=0.00 B
+2017-10-25 08:00:33.946+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Perm Gen (Non-heap memory): committed=23.00 MB, used=22.91 MB, max=82.00 MB, threshold=0.00 B
+2017-10-25 08:00:33.947+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-10-25 08:00:33.947+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Mac OS X; version: 10.12.6; arch: x86_64; cpus: 8
+2017-10-25 08:00:33.947+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 10.00 kB
+2017-10-25 08:00:33.947+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 37.00 B
+2017-10-25 08:00:33.947+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 8905@dhcp-10-249-73-185.eduroam.wireless.private.cam.ac.uk
+2017-10-25 08:00:33.947+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-10-25 08:00:33.947+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/London
+2017-10-25 08:00:33.947+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2017-10-25 08:00:33.947+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-10-25 08:00:33.947+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-10-25 08:00:33.947+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 24.80-b11
+2017-10-25 08:00:33.947+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-10-25 08:00:33.947+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dfile.encoding=UTF-8, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false, -Dexe4j.moduleName=/Applications/Neo4j Community Edition 2.3.11.app, -Di4j.ownBundlePath=/Applications/Neo4j Community Edition 2.3.11.app, -Di4j.jreBundle=/Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle]
+2017-10-25 08:00:33.947+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-10-25 08:00:33.948+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jfr.jar
+2017-10-25 08:00:33.948+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunec.jar
+2017-10-25 08:00:33.948+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/classes
+2017-10-25 08:00:33.948+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin/neo4j-desktop-2.3.11.jar
+2017-10-25 08:00:33.948+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2017-10-25 08:00:33.948+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-10-25 08:00:33.948+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/zipfs.jar
+2017-10-25 08:00:33.948+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/rt.jar
+2017-10-25 08:00:33.948+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/resources.jar
+2017-10-25 08:00:33.948+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2017-10-25 08:00:33.948+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2017-10-25 08:00:33.948+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/charsets.jar
+2017-10-25 08:00:33.948+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/dnsns.jar
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jce.jar
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/sunrsasign.jar
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/app/bin/neo4j-desktop-2.3.11.jar
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jsse.jar
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/localedata.jar
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager] /Users/mukulrathi/Library/Java/Extensions
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager] /Library/Java/Extensions
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager] /Network/Library/Java/Extensions
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager] /System/Library/Java/Extensions
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/java
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = /Applications/Neo4j Community Edition 2.3.11.app
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.jreBundle = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle
+2017-10-25 08:00:33.949+0000 INFO  [o.n.k.i.DiagnosticsManager] gopherProxySet = false
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = GB
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = /Applications/
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.ext.udc.source = desktop
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.ownBundlePath = /Applications/Neo4j Community Edition 2.3.11.app
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] apple.awt.fileDialogForDirectories = false
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /Users/mukulrathi
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/London
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = mukulrathi
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = com.install4j.runtime.launcher.MacLauncher
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.font.fontmanager = sun.font.CFontManager
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeBig
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-10-25 08:00:33.950+0000 INFO  [o.n.k.i.DiagnosticsManager] ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-10-25 08:00:33.951+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2017-10-25 08:00:33.951+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2017-10-25 08:00:33.951+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en5:
+2017-10-25 08:00:33.951+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:aede:48ff:fe00:1122%12
+2017-10-25 08:00:33.951+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun1:
+2017-10-25 08:00:33.951+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a80b:7666:98b5:5865%14
+2017-10-25 08:00:33.951+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun0:
+2017-10-25 08:00:33.951+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fdb5:9ffe:526:65f1:85fa:8682:de01:306e
+2017-10-25 08:00:33.951+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:85fa:8682:de01:306e%13
+2017-10-25 08:00:33.952+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface awdl0:
+2017-10-25 08:00:33.952+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a07d:80ff:fec5:4205%11
+2017-10-25 08:00:33.952+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en0:
+2017-10-25 08:00:33.952+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:183f:f535:6a3b:42e5%4
+2017-10-25 08:00:33.952+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 10.249.73.185
+2017-10-25 08:00:33.952+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo0:
+2017-10-25 08:00:33.952+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:0:0:1%1
+2017-10-25 08:00:33.952+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2017-10-25 08:00:33.952+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-10-25 08:00:33.952+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-10-25 08:00:33.969+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2017-10-25 08:00:33.969+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2017-10-25 08:00:33.969+0000 INFO  [o.n.k.i.f.GraphDatabaseFacade] Shutdown started
+2017-10-25 08:01:22.345+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] No locking implementation specified, defaulting to 'community'
+2017-10-25 08:01:22.347+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-10-25 08:01:22.348+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-10-25 08:01:22.348+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-10-25 08:01:22.348+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.db.tuning.properties=/Users/mukulrathi/Downloads/graph-small/neo4j.properties
+2017-10-25 08:01:22.348+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.database.location=/Users/mukulrathi/Downloads/graph-small
+2017-10-25 08:01:22.348+0000 INFO  [o.n.k.i.DiagnosticsManager] allow_store_upgrade=true
+2017-10-25 08:01:22.348+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.querylog.filename=data/log/queries.log
+2017-10-25 08:01:22.348+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_store.location=/Users/mukulrathi/Downloads/graph-small/./dbms/auth
+2017-10-25 08:01:22.348+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_certificate_file=/Users/mukulrathi/Downloads/graph-small/./dbms/ssl/snakeoil.cert
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] remote_shell_enabled=true
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] edition=Community
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_key_file=/Users/mukulrathi/Downloads/graph-small/./dbms/ssl/snakeoil.key
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 16.00 GB
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 1.45 GB
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 7.17 GB
+2017-10-25 08:01:22.349+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 1.00 GB
+2017-10-25 08:01:22.350+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 957.50 MB
+2017-10-25 08:01:22.350+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-10-25 08:01:22.350+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 129.83 MB
+2017-10-25 08:01:22.350+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 245.50 MB
+2017-10-25 08:01:22.350+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 3.56 GB
+2017-10-25 08:01:22.350+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2017-10-25 08:01:22.350+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2017-10-25 08:01:22.350+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=1.20 MB, max=48.00 MB, threshold=0.00 B
+2017-10-25 08:01:22.351+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=64.50 MB, used=54.30 MB, max=1.31 GB, threshold=?
+2017-10-25 08:01:22.351+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=10.50 MB, used=9.25 MB, max=10.50 MB, threshold=?
+2017-10-25 08:01:22.351+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=170.50 MB, used=52.13 MB, max=2.67 GB, threshold=0.00 B
+2017-10-25 08:01:22.352+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Perm Gen (Non-heap memory): committed=23.50 MB, used=23.03 MB, max=82.00 MB, threshold=0.00 B
+2017-10-25 08:01:22.352+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-10-25 08:01:22.352+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Mac OS X; version: 10.12.6; arch: x86_64; cpus: 8
+2017-10-25 08:01:22.352+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 10.00 kB
+2017-10-25 08:01:22.352+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 37.00 B
+2017-10-25 08:01:22.352+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 8905@dhcp-10-249-73-185.eduroam.wireless.private.cam.ac.uk
+2017-10-25 08:01:22.352+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-10-25 08:01:22.352+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/London
+2017-10-25 08:01:22.352+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2017-10-25 08:01:22.352+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-10-25 08:01:22.352+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-10-25 08:01:22.352+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 24.80-b11
+2017-10-25 08:01:22.352+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-10-25 08:01:22.352+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dfile.encoding=UTF-8, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false, -Dexe4j.moduleName=/Applications/Neo4j Community Edition 2.3.11.app, -Di4j.ownBundlePath=/Applications/Neo4j Community Edition 2.3.11.app, -Di4j.jreBundle=/Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle]
+2017-10-25 08:01:22.352+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-10-25 08:01:22.353+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jfr.jar
+2017-10-25 08:01:22.353+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunec.jar
+2017-10-25 08:01:22.353+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/classes
+2017-10-25 08:01:22.353+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin/neo4j-desktop-2.3.11.jar
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/zipfs.jar
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/rt.jar
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/resources.jar
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/charsets.jar
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/dnsns.jar
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jce.jar
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/sunrsasign.jar
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/app/bin/neo4j-desktop-2.3.11.jar
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jsse.jar
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/localedata.jar
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager] /Users/mukulrathi/Library/Java/Extensions
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager] /Library/Java/Extensions
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager] /Network/Library/Java/Extensions
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager] /System/Library/Java/Extensions
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/java
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin
+2017-10-25 08:01:22.354+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = /Applications/Neo4j Community Edition 2.3.11.app
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.jreBundle = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] gopherProxySet = false
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = GB
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = /Applications/
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.ext.udc.source = desktop
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.ownBundlePath = /Applications/Neo4j Community Edition 2.3.11.app
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] apple.awt.fileDialogForDirectories = true
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /Users/mukulrathi
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/London
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = mukulrathi
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = com.install4j.runtime.launcher.MacLauncher
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/
+2017-10-25 08:01:22.355+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
+2017-10-25 08:01:22.356+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.font.fontmanager = sun.font.CFontManager
+2017-10-25 08:01:22.356+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeBig
+2017-10-25 08:01:22.356+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-10-25 08:01:22.356+0000 INFO  [o.n.k.i.DiagnosticsManager] socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-10-25 08:01:22.356+0000 INFO  [o.n.k.i.DiagnosticsManager] ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-10-25 08:01:22.356+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2017-10-25 08:01:22.356+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2017-10-25 08:01:22.356+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en5:
+2017-10-25 08:01:22.356+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:aede:48ff:fe00:1122%12
+2017-10-25 08:01:22.356+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun1:
+2017-10-25 08:01:22.356+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a80b:7666:98b5:5865%14
+2017-10-25 08:01:22.356+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun0:
+2017-10-25 08:01:22.356+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fdb5:9ffe:526:65f1:85fa:8682:de01:306e
+2017-10-25 08:01:22.357+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:85fa:8682:de01:306e%13
+2017-10-25 08:01:22.357+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface awdl0:
+2017-10-25 08:01:22.357+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a07d:80ff:fec5:4205%11
+2017-10-25 08:01:22.357+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en0:
+2017-10-25 08:01:22.357+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:183f:f535:6a3b:42e5%4
+2017-10-25 08:01:22.357+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 10.249.73.185
+2017-10-25 08:01:22.357+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo0:
+2017-10-25 08:01:22.357+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:0:0:1%1
+2017-10-25 08:01:22.357+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2017-10-25 08:01:22.357+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-10-25 08:01:22.357+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-10-25 08:01:22.368+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2017-10-25 08:01:22.369+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2017-10-25 08:01:22.369+0000 INFO  [o.n.k.i.f.GraphDatabaseFacade] Shutdown started
+2017-11-03 17:27:26.986+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] No locking implementation specified, defaulting to 'community'
+2017-11-03 17:27:26.988+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-11-03 17:27:26.989+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-11-03 17:27:26.989+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-11-03 17:27:26.989+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.db.tuning.properties=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small/neo4j.properties
+2017-11-03 17:27:26.989+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.database.location=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small
+2017-11-03 17:27:26.989+0000 INFO  [o.n.k.i.DiagnosticsManager] allow_store_upgrade=true
+2017-11-03 17:27:26.989+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.querylog.filename=data/log/queries.log
+2017-11-03 17:27:26.989+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_store.location=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small/./dbms/auth
+2017-11-03 17:27:26.989+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_certificate_file=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small/./dbms/ssl/snakeoil.cert
+2017-11-03 17:27:26.989+0000 INFO  [o.n.k.i.DiagnosticsManager] remote_shell_enabled=true
+2017-11-03 17:27:26.989+0000 INFO  [o.n.k.i.DiagnosticsManager] edition=Community
+2017-11-03 17:27:26.989+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_key_file=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small/./dbms/ssl/snakeoil.key
+2017-11-03 17:27:26.989+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-11-03 17:27:26.989+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-11-03 17:27:26.989+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-11-03 17:27:26.990+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-11-03 17:27:26.990+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-11-03 17:27:26.990+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-11-03 17:27:26.990+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-11-03 17:27:26.990+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-11-03 17:27:26.990+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-11-03 17:27:26.990+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-11-03 17:27:26.990+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2017-11-03 17:27:26.990+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2017-11-03 17:27:26.990+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 16.00 GB
+2017-11-03 17:27:26.990+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 6.97 GB
+2017-11-03 17:27:26.990+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 7.10 GB
+2017-11-03 17:27:26.990+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 1.00 GB
+2017-11-03 17:27:26.990+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 1003.25 MB
+2017-11-03 17:27:26.990+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-11-03 17:27:26.991+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 160.42 MB
+2017-11-03 17:27:26.991+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 410.00 MB
+2017-11-03 17:27:26.991+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 3.56 GB
+2017-11-03 17:27:26.991+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2017-11-03 17:27:26.991+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2017-11-03 17:27:26.991+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=1.63 MB, max=48.00 MB, threshold=0.00 B
+2017-11-03 17:27:26.991+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=192.00 MB, used=170.82 MB, max=1.23 GB, threshold=?
+2017-11-03 17:27:26.992+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=47.50 MB, used=7.11 MB, max=47.50 MB, threshold=?
+2017-11-03 17:27:26.992+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=170.50 MB, used=71.64 MB, max=2.67 GB, threshold=0.00 B
+2017-11-03 17:27:26.992+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Perm Gen (Non-heap memory): committed=56.50 MB, used=55.52 MB, max=82.00 MB, threshold=0.00 B
+2017-11-03 17:27:26.993+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-11-03 17:27:26.993+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Mac OS X; version: 10.12.6; arch: x86_64; cpus: 8
+2017-11-03 17:27:26.993+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 10.00 kB
+2017-11-03 17:27:26.993+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 42.00 B
+2017-11-03 17:27:26.993+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 1742@dhcp-10-249-81-247.eduroam.wireless.private.cam.ac.uk
+2017-11-03 17:27:26.993+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-11-03 17:27:26.993+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/London
+2017-11-03 17:27:26.993+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2017-11-03 17:27:26.993+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-11-03 17:27:26.993+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-11-03 17:27:26.993+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 24.80-b11
+2017-11-03 17:27:26.993+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-11-03 17:27:26.993+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dfile.encoding=UTF-8, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false, -Dexe4j.moduleName=/Applications/Neo4j Community Edition 2.3.11.app, -Di4j.ownBundlePath=/Applications/Neo4j Community Edition 2.3.11.app, -Di4j.jreBundle=/Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle]
+2017-11-03 17:27:26.993+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-11-03 17:27:26.994+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jfr.jar
+2017-11-03 17:27:26.994+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunec.jar
+2017-11-03 17:27:26.994+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/classes
+2017-11-03 17:27:26.994+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin/neo4j-desktop-2.3.11.jar
+2017-11-03 17:27:26.994+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2017-11-03 17:27:26.994+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-11-03 17:27:26.994+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/zipfs.jar
+2017-11-03 17:27:26.994+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/rt.jar
+2017-11-03 17:27:26.994+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/resources.jar
+2017-11-03 17:27:26.994+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2017-11-03 17:27:26.994+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2017-11-03 17:27:26.994+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/charsets.jar
+2017-11-03 17:27:26.994+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-11-03 17:27:26.994+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/dnsns.jar
+2017-11-03 17:27:26.994+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jce.jar
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/sunrsasign.jar
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/app/bin/neo4j-desktop-2.3.11.jar
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jsse.jar
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/localedata.jar
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager] /Users/mukulrathi/Library/Java/Extensions
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager] /Library/Java/Extensions
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager] /Network/Library/Java/Extensions
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager] /System/Library/Java/Extensions
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/java
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = /Applications/Neo4j Community Edition 2.3.11.app
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.jreBundle = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager] gopherProxySet = false
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
+2017-11-03 17:27:26.995+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = GB
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = /Applications/
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.ext.udc.source = desktop
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.ownBundlePath = /Applications/Neo4j Community Edition 2.3.11.app
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] apple.awt.fileDialogForDirectories = false
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /Users/mukulrathi
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/London
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = mukulrathi
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = com.install4j.runtime.launcher.MacLauncher
+2017-11-03 17:27:26.996+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-11-03 17:27:26.997+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2017-11-03 17:27:26.997+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2017-11-03 17:27:26.997+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/
+2017-11-03 17:27:26.997+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
+2017-11-03 17:27:26.997+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.font.fontmanager = sun.font.CFontManager
+2017-11-03 17:27:26.997+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeBig
+2017-11-03 17:27:26.997+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-11-03 17:27:26.997+0000 INFO  [o.n.k.i.DiagnosticsManager] socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-11-03 17:27:26.997+0000 INFO  [o.n.k.i.DiagnosticsManager] ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-11-03 17:27:26.997+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2017-11-03 17:27:26.997+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2017-11-03 17:27:26.997+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en5:
+2017-11-03 17:27:26.998+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:aede:48ff:fe00:1122%12
+2017-11-03 17:27:26.998+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun2:
+2017-11-03 17:27:26.998+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a469:3783:b184:cb46%15
+2017-11-03 17:27:26.998+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun1:
+2017-11-03 17:27:26.998+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fdb5:9ffe:526:65f1:be:c226:a652:7e9b
+2017-11-03 17:27:26.998+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:be:c226:a652:7e9b%14
+2017-11-03 17:27:26.998+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun0:
+2017-11-03 17:27:26.998+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:9273:fce5:f9a1:a32f%13
+2017-11-03 17:27:26.998+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface awdl0:
+2017-11-03 17:27:26.998+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:7086:11ff:fe2c:b0ad%10
+2017-11-03 17:27:26.998+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en0:
+2017-11-03 17:27:26.999+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:c99:dcb0:4b33:ff8f%4
+2017-11-03 17:27:26.999+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 10.249.81.247
+2017-11-03 17:27:26.999+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo0:
+2017-11-03 17:27:26.999+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:0:0:1%1
+2017-11-03 17:27:26.999+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2017-11-03 17:27:26.999+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-11-03 17:27:26.999+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-11-03 17:27:27.008+0000 INFO  [o.n.k.i.f.GraphDatabaseFacade] Shutdown started
+2017-11-03 17:27:27.009+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SHUTDOWN diagnostics START ---
+2017-11-03 17:27:27.009+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SHUTDOWN diagnostics END ---
+2017-11-03 17:27:38.850+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] No locking implementation specified, defaulting to 'community'
+2017-11-03 17:27:38.851+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-11-03 17:27:38.852+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-11-03 17:27:38.852+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-11-03 17:27:38.852+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.db.tuning.properties=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small/neo4j.properties
+2017-11-03 17:27:38.852+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.database.location=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small
+2017-11-03 17:27:38.852+0000 INFO  [o.n.k.i.DiagnosticsManager] allow_store_upgrade=true
+2017-11-03 17:27:38.852+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.querylog.filename=data/log/queries.log
+2017-11-03 17:27:38.852+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_store.location=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small/./dbms/auth
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_certificate_file=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small/./dbms/ssl/snakeoil.cert
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] remote_shell_enabled=true
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] edition=Community
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_key_file=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small/./dbms/ssl/snakeoil.key
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 16.00 GB
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 6.92 GB
+2017-11-03 17:27:38.853+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 7.12 GB
+2017-11-03 17:27:38.854+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 1.00 GB
+2017-11-03 17:27:38.854+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 1003.25 MB
+2017-11-03 17:27:38.854+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-11-03 17:27:38.854+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 222.32 MB
+2017-11-03 17:27:38.854+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 413.00 MB
+2017-11-03 17:27:38.854+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 3.56 GB
+2017-11-03 17:27:38.854+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2017-11-03 17:27:38.854+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2017-11-03 17:27:38.854+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=1.68 MB, max=48.00 MB, threshold=0.00 B
+2017-11-03 17:27:38.855+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=185.00 MB, used=47.17 MB, max=1.20 GB, threshold=?
+2017-11-03 17:27:38.855+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=57.50 MB, used=57.49 MB, max=57.50 MB, threshold=?
+2017-11-03 17:27:38.855+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=170.50 MB, used=86.02 MB, max=2.67 GB, threshold=0.00 B
+2017-11-03 17:27:38.856+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Perm Gen (Non-heap memory): committed=56.50 MB, used=55.92 MB, max=82.00 MB, threshold=0.00 B
+2017-11-03 17:27:38.856+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-11-03 17:27:38.856+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Mac OS X; version: 10.12.6; arch: x86_64; cpus: 8
+2017-11-03 17:27:38.856+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 10.00 kB
+2017-11-03 17:27:38.856+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 43.00 B
+2017-11-03 17:27:38.856+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 1742@dhcp-10-249-81-247.eduroam.wireless.private.cam.ac.uk
+2017-11-03 17:27:38.856+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-11-03 17:27:38.856+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/London
+2017-11-03 17:27:38.856+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2017-11-03 17:27:38.857+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-11-03 17:27:38.857+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-11-03 17:27:38.857+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 24.80-b11
+2017-11-03 17:27:38.857+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-11-03 17:27:38.857+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dfile.encoding=UTF-8, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false, -Dexe4j.moduleName=/Applications/Neo4j Community Edition 2.3.11.app, -Di4j.ownBundlePath=/Applications/Neo4j Community Edition 2.3.11.app, -Di4j.jreBundle=/Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle]
+2017-11-03 17:27:38.857+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-11-03 17:27:38.857+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jfr.jar
+2017-11-03 17:27:38.857+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunec.jar
+2017-11-03 17:27:38.857+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/classes
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin/neo4j-desktop-2.3.11.jar
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/zipfs.jar
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/rt.jar
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/resources.jar
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/charsets.jar
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/dnsns.jar
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jce.jar
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/sunrsasign.jar
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/app/bin/neo4j-desktop-2.3.11.jar
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jsse.jar
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/localedata.jar
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager] /Users/mukulrathi/Library/Java/Extensions
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager] /Library/Java/Extensions
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager] /Network/Library/Java/Extensions
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager] /System/Library/Java/Extensions
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/java
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin
+2017-11-03 17:27:38.858+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = /Applications/Neo4j Community Edition 2.3.11.app
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.jreBundle = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] gopherProxySet = false
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = GB
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = /Applications/
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.ext.udc.source = desktop
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.ownBundlePath = /Applications/Neo4j Community Edition 2.3.11.app
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] apple.awt.fileDialogForDirectories = false
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /Users/mukulrathi
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/London
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = mukulrathi
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = com.install4j.runtime.launcher.MacLauncher
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-11-03 17:27:38.859+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2017-11-03 17:27:38.860+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2017-11-03 17:27:38.860+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/
+2017-11-03 17:27:38.860+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
+2017-11-03 17:27:38.860+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.font.fontmanager = sun.font.CFontManager
+2017-11-03 17:27:38.860+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeBig
+2017-11-03 17:27:38.860+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-11-03 17:27:38.860+0000 INFO  [o.n.k.i.DiagnosticsManager] socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-11-03 17:27:38.860+0000 INFO  [o.n.k.i.DiagnosticsManager] ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-11-03 17:27:38.860+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2017-11-03 17:27:38.860+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2017-11-03 17:27:38.860+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en5:
+2017-11-03 17:27:38.860+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:aede:48ff:fe00:1122%12
+2017-11-03 17:27:38.860+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun2:
+2017-11-03 17:27:38.860+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a469:3783:b184:cb46%15
+2017-11-03 17:27:38.861+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun1:
+2017-11-03 17:27:38.861+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fdb5:9ffe:526:65f1:be:c226:a652:7e9b
+2017-11-03 17:27:38.861+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:be:c226:a652:7e9b%14
+2017-11-03 17:27:38.861+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun0:
+2017-11-03 17:27:38.861+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:9273:fce5:f9a1:a32f%13
+2017-11-03 17:27:38.861+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface awdl0:
+2017-11-03 17:27:38.861+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:7086:11ff:fe2c:b0ad%10
+2017-11-03 17:27:38.861+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en0:
+2017-11-03 17:27:38.861+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:c99:dcb0:4b33:ff8f%4
+2017-11-03 17:27:38.861+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 10.249.81.247
+2017-11-03 17:27:38.861+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo0:
+2017-11-03 17:27:38.861+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:0:0:1%1
+2017-11-03 17:27:38.861+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2017-11-03 17:27:38.861+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-11-03 17:27:38.861+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-11-03 17:27:38.870+0000 INFO  [o.n.k.i.f.GraphDatabaseFacade] Shutdown started
+2017-11-03 17:27:38.870+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SHUTDOWN diagnostics START ---
+2017-11-03 17:27:38.870+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SHUTDOWN diagnostics END ---
+2017-11-03 17:27:54.604+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] No locking implementation specified, defaulting to 'community'
+2017-11-03 17:27:54.606+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-11-03 17:27:54.606+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-11-03 17:27:54.606+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-11-03 17:27:54.606+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.db.tuning.properties=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small/neo4j.properties
+2017-11-03 17:27:54.606+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.database.location=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small
+2017-11-03 17:27:54.606+0000 INFO  [o.n.k.i.DiagnosticsManager] allow_store_upgrade=true
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.querylog.filename=data/log/queries.log
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_store.location=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small/./dbms/auth
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_certificate_file=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small/./dbms/ssl/snakeoil.cert
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] remote_shell_enabled=true
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] edition=Community
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_key_file=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small/./dbms/ssl/snakeoil.key
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 16.00 GB
+2017-11-03 17:27:54.607+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 7.29 GB
+2017-11-03 17:27:54.608+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 7.19 GB
+2017-11-03 17:27:54.608+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 1.00 GB
+2017-11-03 17:27:54.608+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 1003.25 MB
+2017-11-03 17:27:54.608+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-11-03 17:27:54.608+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 158.93 MB
+2017-11-03 17:27:54.608+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 413.00 MB
+2017-11-03 17:27:54.608+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 3.56 GB
+2017-11-03 17:27:54.608+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2017-11-03 17:27:54.608+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2017-11-03 17:27:54.609+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=1.76 MB, max=48.00 MB, threshold=0.00 B
+2017-11-03 17:27:54.609+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=185.00 MB, used=110.56 MB, max=1.20 GB, threshold=?
+2017-11-03 17:27:54.609+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=57.50 MB, used=57.49 MB, max=57.50 MB, threshold=?
+2017-11-03 17:27:54.609+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=170.50 MB, used=86.02 MB, max=2.67 GB, threshold=0.00 B
+2017-11-03 17:27:54.610+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Perm Gen (Non-heap memory): committed=57.00 MB, used=56.96 MB, max=82.00 MB, threshold=0.00 B
+2017-11-03 17:27:54.610+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-11-03 17:27:54.610+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Mac OS X; version: 10.12.6; arch: x86_64; cpus: 8
+2017-11-03 17:27:54.610+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 10.00 kB
+2017-11-03 17:27:54.610+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 44.00 B
+2017-11-03 17:27:54.610+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 1742@dhcp-10-249-81-247.eduroam.wireless.private.cam.ac.uk
+2017-11-03 17:27:54.610+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-11-03 17:27:54.610+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/London
+2017-11-03 17:27:54.610+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2017-11-03 17:27:54.610+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-11-03 17:27:54.610+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-11-03 17:27:54.610+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 24.80-b11
+2017-11-03 17:27:54.610+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-11-03 17:27:54.610+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dfile.encoding=UTF-8, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false, -Dexe4j.moduleName=/Applications/Neo4j Community Edition 2.3.11.app, -Di4j.ownBundlePath=/Applications/Neo4j Community Edition 2.3.11.app, -Di4j.jreBundle=/Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle]
+2017-11-03 17:27:54.610+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-11-03 17:27:54.611+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jfr.jar
+2017-11-03 17:27:54.611+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunec.jar
+2017-11-03 17:27:54.611+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/classes
+2017-11-03 17:27:54.611+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin/neo4j-desktop-2.3.11.jar
+2017-11-03 17:27:54.611+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2017-11-03 17:27:54.611+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-11-03 17:27:54.611+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/zipfs.jar
+2017-11-03 17:27:54.611+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/rt.jar
+2017-11-03 17:27:54.611+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/resources.jar
+2017-11-03 17:27:54.611+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2017-11-03 17:27:54.611+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/charsets.jar
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/dnsns.jar
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jce.jar
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/sunrsasign.jar
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/app/bin/neo4j-desktop-2.3.11.jar
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jsse.jar
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/localedata.jar
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager] /Users/mukulrathi/Library/Java/Extensions
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager] /Library/Java/Extensions
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager] /Network/Library/Java/Extensions
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager] /System/Library/Java/Extensions
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/java
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = /Applications/Neo4j Community Edition 2.3.11.app
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.jreBundle = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager] gopherProxySet = false
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-11-03 17:27:54.612+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = GB
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = /Applications/
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.ext.udc.source = desktop
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.ownBundlePath = /Applications/Neo4j Community Edition 2.3.11.app
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] apple.awt.fileDialogForDirectories = false
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /Users/mukulrathi
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/London
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = mukulrathi
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = com.install4j.runtime.launcher.MacLauncher
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.font.fontmanager = sun.font.CFontManager
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeBig
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2017-11-03 17:27:54.613+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2017-11-03 17:27:54.614+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en5:
+2017-11-03 17:27:54.614+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:aede:48ff:fe00:1122%12
+2017-11-03 17:27:54.614+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun2:
+2017-11-03 17:27:54.614+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a469:3783:b184:cb46%15
+2017-11-03 17:27:54.614+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun1:
+2017-11-03 17:27:54.614+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fdb5:9ffe:526:65f1:be:c226:a652:7e9b
+2017-11-03 17:27:54.614+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:be:c226:a652:7e9b%14
+2017-11-03 17:27:54.614+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun0:
+2017-11-03 17:27:54.614+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:9273:fce5:f9a1:a32f%13
+2017-11-03 17:27:54.614+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface awdl0:
+2017-11-03 17:27:54.614+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:7086:11ff:fe2c:b0ad%10
+2017-11-03 17:27:54.615+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en0:
+2017-11-03 17:27:54.615+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:c99:dcb0:4b33:ff8f%4
+2017-11-03 17:27:54.615+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 10.249.81.247
+2017-11-03 17:27:54.615+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo0:
+2017-11-03 17:27:54.615+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:0:0:1%1
+2017-11-03 17:27:54.615+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2017-11-03 17:27:54.615+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-11-03 17:27:54.615+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-11-03 17:27:54.630+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2017-11-03 17:27:54.630+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2017-11-03 17:27:54.630+0000 INFO  [o.n.k.i.f.GraphDatabaseFacade] Shutdown started
+2017-11-03 17:28:01.235+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] No locking implementation specified, defaulting to 'community'
+2017-11-03 17:28:01.237+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.db.tuning.properties=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small/neo4j.properties
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.database.location=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] allow_store_upgrade=true
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.querylog.filename=data/log/queries.log
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_store.location=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small/./dbms/auth
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_certificate_file=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small/./dbms/ssl/snakeoil.cert
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] remote_shell_enabled=true
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] edition=Community
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_key_file=/Users/mukulrathi/Documents/Cambridge University/1A Compsci/Ticks/Databases/graph-small/./dbms/ssl/snakeoil.key
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-11-03 17:28:01.238+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-11-03 17:28:01.239+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2017-11-03 17:28:01.239+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2017-11-03 17:28:01.239+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 16.00 GB
+2017-11-03 17:28:01.239+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 7.28 GB
+2017-11-03 17:28:01.239+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 7.20 GB
+2017-11-03 17:28:01.239+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 1.00 GB
+2017-11-03 17:28:01.239+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 1003.25 MB
+2017-11-03 17:28:01.239+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-11-03 17:28:01.239+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 95.97 MB
+2017-11-03 17:28:01.239+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 413.00 MB
+2017-11-03 17:28:01.239+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 3.56 GB
+2017-11-03 17:28:01.239+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2017-11-03 17:28:01.239+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2017-11-03 17:28:01.240+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=1.81 MB, max=48.00 MB, threshold=0.00 B
+2017-11-03 17:28:01.240+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=185.00 MB, used=173.52 MB, max=1.20 GB, threshold=?
+2017-11-03 17:28:01.240+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=57.50 MB, used=57.49 MB, max=57.50 MB, threshold=?
+2017-11-03 17:28:01.241+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=170.50 MB, used=86.02 MB, max=2.67 GB, threshold=0.00 B
+2017-11-03 17:28:01.241+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Perm Gen (Non-heap memory): committed=57.50 MB, used=57.04 MB, max=82.00 MB, threshold=0.00 B
+2017-11-03 17:28:01.241+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-11-03 17:28:01.241+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Mac OS X; version: 10.12.6; arch: x86_64; cpus: 8
+2017-11-03 17:28:01.241+0000 INFO  [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 10.00 kB
+2017-11-03 17:28:01.241+0000 INFO  [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 44.00 B
+2017-11-03 17:28:01.241+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 1742@dhcp-10-249-81-247.eduroam.wireless.private.cam.ac.uk
+2017-11-03 17:28:01.242+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-11-03 17:28:01.242+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/London
+2017-11-03 17:28:01.242+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2017-11-03 17:28:01.242+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-11-03 17:28:01.242+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-11-03 17:28:01.242+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 24.80-b11
+2017-11-03 17:28:01.242+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-11-03 17:28:01.242+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dfile.encoding=UTF-8, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false, -Dexe4j.moduleName=/Applications/Neo4j Community Edition 2.3.11.app, -Di4j.ownBundlePath=/Applications/Neo4j Community Edition 2.3.11.app, -Di4j.jreBundle=/Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle]
+2017-11-03 17:28:01.242+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-11-03 17:28:01.242+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jfr.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunec.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/classes
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin/neo4j-desktop-2.3.11.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/zipfs.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/rt.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/resources.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/charsets.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/.install4j/i4jruntime.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/dnsns.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jce.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/sunrsasign.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/app/bin/neo4j-desktop-2.3.11.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/jsse.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/Applications/Neo4j%20Community%20Edition%202.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib/ext/localedata.jar
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager] /Users/mukulrathi/Library/Java/Extensions
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager] /Library/Java/Extensions
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager] /Network/Library/Java/Extensions
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager] /System/Library/Java/Extensions
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager] /usr/lib/java
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager] /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = /Applications/Neo4j Community Edition 2.3.11.app
+2017-11-03 17:28:01.243+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle/Contents/Home/jre/lib
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.jreBundle = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/jre.bundle
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] gopherProxySet = false
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = :
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = GB
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = /Applications/
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/bin
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.ext.udc.source = desktop
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] i4j.ownBundlePath = /Applications/Neo4j Community Edition 2.3.11.app
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] apple.awt.fileDialogForDirectories = false
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = /Users/mukulrathi
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/London
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = mukulrathi
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = com.install4j.runtime.launcher.MacLauncher
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = /Applications/Neo4j Community Edition 2.3.11.app/Contents/Resources/app/
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = /
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.font.fontmanager = sun.font.CFontManager
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeBig
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2017-11-03 17:28:01.244+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2017-11-03 17:28:01.245+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en5:
+2017-11-03 17:28:01.245+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:aede:48ff:fe00:1122%12
+2017-11-03 17:28:01.245+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun2:
+2017-11-03 17:28:01.245+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a469:3783:b184:cb46%15
+2017-11-03 17:28:01.245+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun1:
+2017-11-03 17:28:01.245+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fdb5:9ffe:526:65f1:be:c226:a652:7e9b
+2017-11-03 17:28:01.245+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:be:c226:a652:7e9b%14
+2017-11-03 17:28:01.245+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface utun0:
+2017-11-03 17:28:01.245+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:9273:fce5:f9a1:a32f%13
+2017-11-03 17:28:01.246+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface awdl0:
+2017-11-03 17:28:01.246+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:7086:11ff:fe2c:b0ad%10
+2017-11-03 17:28:01.246+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface en0:
+2017-11-03 17:28:01.246+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:c99:dcb0:4b33:ff8f%4
+2017-11-03 17:28:01.246+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 10.249.81.247
+2017-11-03 17:28:01.246+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface lo0:
+2017-11-03 17:28:01.246+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:0:0:1%1
+2017-11-03 17:28:01.246+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2017-11-03 17:28:01.246+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-11-03 17:28:01.246+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-11-03 17:28:01.256+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2017-11-03 17:28:01.256+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2017-11-03 17:28:01.257+0000 INFO  [o.n.k.i.f.GraphDatabaseFacade] Shutdown started
